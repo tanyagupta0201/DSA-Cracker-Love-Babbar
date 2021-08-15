@@ -11,7 +11,7 @@
 
 ## Track your progress
 * You can track your progress with [DSA Cracker](https://450dsa.com/).
-* Credits: @AsishRaju
+* Credits: [@AsishRaju](https://github.com/AsishRaju)
 
 ## DSA Cracker Sheet
 
