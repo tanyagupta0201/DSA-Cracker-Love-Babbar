@@ -1,4 +1,4 @@
-## BIT MANIPULATION
+# BIT MANIPULATION
 Bit manipulation is the act of algorithmically manipulating bits or other pieces of data shorter than a word. Bit manipulation is something that has constant time complexity.It is an act of algorithmically manipulating bits or other pieces of data that are shorter than a word.
 
 Bit manipulation can obviate or reduce the need to loop over a data structure and can speed up coding as bit manipulations are processed in parallel.
@@ -11,7 +11,7 @@ Computer programming tasks that require bit manipulation include:
 * Encryption algorithms
 * Optimization
 
-# List of Bitwise operators
+## List of Bitwise operators
 
 
 | Operator  | Name of operator                    | Usage        |
