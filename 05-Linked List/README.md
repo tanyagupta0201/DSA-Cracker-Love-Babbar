@@ -19,6 +19,15 @@ Linked list can be visualized as a chain of nodes, where every node points to th
 - Empty node can not be present in the linked list.
 - We can store values of primitive types or objects in the singly linked list.
 
+## Basic Operations
+Following are the basic operations supported by a list.
+
+- **Insertion −** Adds an element at the beginning of the list.
+- **Deletion −** Deletes an element at the beginning of the list.
+- **Display −** Displays the complete list.
+- **Search −** Searches an element using the given key.
+- **Delete −** Deletes an element using the given key.
+
 ## Complexity
 
 <img src = "img/img02.JPG" height ="210" width = "830">
