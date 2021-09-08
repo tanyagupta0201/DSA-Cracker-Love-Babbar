@@ -21,7 +21,7 @@ Linked list can be visualized as a chain of nodes, where every node points to th
 
 ## Complexity
 
-<img src = "img/img01.JPG" height ="150" width = "530">
+<img src = "img/img02.JPG" height ="210" width = "830">
 
 
 
