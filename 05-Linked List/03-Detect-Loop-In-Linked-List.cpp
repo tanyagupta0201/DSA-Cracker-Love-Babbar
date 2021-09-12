@@ -84,8 +84,8 @@ int main()
         Insert_At_Tail(head, data);
     }
 
-    cout << "Linked List: ";
-    print(head);
+    // Create a loop for testing 
+    head->next->next->next->next = head;
 
     if (detectLoop(head))
         cout << "Loop found";
