@@ -40,4 +40,18 @@ An element is accessed by indexing the array name. This is done by placing the i
 
 ```double salary = balance[9];```
 
+## Advantages of Arrays
+
+* Arrays represent multiple data items of the same type using a single name.
+* In arrays, the elements can be accessed randomly by using the index number.
+* Arrays allocate memory in contiguous memory locations for all its elements. Hence there is no chance of extra memory being allocated in case of arrays. This avoids memory overflow or shortage of memory in arrays.
+* Using arrays, other data structures like linked lists, stacks, queues, trees, graphs etc can be implemented.
+* Two-dimensional arrays are used to represent matrices.
+
+## Disadvantages of Arrays
+
+* The number of elements to be stored in an array should be known in advance.
+* An array is a static structure (which means the array is of fixed size). Once declared the size of the array cannot be modified. The memory which is allocated to it cannot be increased or decreased.
+* Insertion and deletion are quite difficult in an array as the elements are stored in consecutive memory locations and the shifting operation is costly.
+* Allocating more memory than the requirement leads to wastage of memory space and less allocation of memory also leads to a problem.
 
