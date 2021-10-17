@@ -55,3 +55,14 @@ An element is accessed by indexing the array name. This is done by placing the i
 * Insertion and deletion are quite difficult in an array as the elements are stored in consecutive memory locations and the shifting operation is costly.
 * Allocating more memory than the requirement leads to wastage of memory space and less allocation of memory also leads to a problem.
 
+## Applications of Array
+
+* Array stores data elements of the same data type.
+* Maintains multiple variable names using a single name. Arrays help to maintain large data under a single variable name. This avoid the confusion of using multiple variables.
+* Arrays can be used for sorting data elements. Different sorting techniques like Bubble sort, Insertion sort, Selection sort etc use arrays to store and sort elements easily.
+* Arrays can be used for performing matrix operations. Many databases, small and large, consist of one-dimensional and two-dimensional arrays whose elements are records.
+* Arrays can be used for CPU scheduling. 
+* Lastly, arrays are also used to implement other data structures like Stacks, Queues, Heaps, Hash tables etc.
+
+
+
