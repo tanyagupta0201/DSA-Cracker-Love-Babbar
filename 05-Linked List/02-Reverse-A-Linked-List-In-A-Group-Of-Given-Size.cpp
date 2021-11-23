@@ -4,23 +4,23 @@ class Solution
 public:
     struct node *reverse(struct node *head, int k)
     {
-        node *next;
+        node *N;
         node *prev = NULL;
         node *curr = head;
         int c = 0;
 
         while (curr != NULL and c < k)
         {
-            next = curr->next;
+            N = curr->next;
             curr->next = prev;
             prev = curr;
-            curr = next;
+            curr = N;
             c++;
         }
 
-        if (next != NULL)
+        if (N != NULL)
         {
-            head->next = reverse(next, k);
+            head->next = reverse(N, k);
         }
         return prev;
     }
