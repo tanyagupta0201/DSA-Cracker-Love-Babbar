@@ -1,0 +1,28 @@
+
+Why is Quick Sort preferred for Arrays?
+ 
+1) One of the main reasons for efficiency in quick sort is locality of reference, which makes it easy for the computer system to access memory   
+   locations that are near to each other, which is faster than memory locations scattered throughout the memory which is the case in merge sort.
+   (Locality of Reference is the tendency of a processor to access the same set of memory locations repetitively over a short period of time).
+
+2) Quick sort is an in-place sorting algorithm i.e. it does not require any extra space, whereas Merge sort requires an additional linear space
+   which may be quite expensive. In merge sort, the allocation and deallocation of the extra space increases the running time of the algorithm.
+
+3) Quick Sort is also tail recursive, therefore tail call optimizations is done.
+   (A recursive function is tail recursive when a recursive call is the last thing executed by the function).
+
+
+Why is Merge Sort preferred for Linked Lists ?
+
+1) In the case of linked lists, the nodes may not be present at adjacent memory locations, therefore Merge Sort is used.
+
+2) Unlike arrays, in linked lists, we can insert items in the middle in O(1) extra space and O(1) time if we are given a reference/pointer to the
+   previous node. Therefore, we can implement the merge operation in the merge sort without using extra space.
+
+3) Quick Sort requires a lot of access to different memory locations. To access ith index in a linked list, we have to travel each and every node 
+   from the head to ith node as we don’t have a continuous block of memory. Therefore, the overhead increases for quick sort. On the other hand, merge sort accesses data sequentially and the need for random access is low.
+
+
+
+
+
